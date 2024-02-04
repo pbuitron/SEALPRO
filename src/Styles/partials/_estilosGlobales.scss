@@ -1,0 +1,35 @@
+/*Estilos Globales*/
+
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--secondary);
+}
+
+
+body {
+  font-family: var(--font-title);
+  background-color: var(--shades);
+}
+
+ul {
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--font-principal);
+  color: map-get($Colores-Principales,shades);
+  text-align: right;
+}
+li {
+  line-height: 5rem;
+  margin: 1rem;
+}
+img {
+  width: 100%;
+}

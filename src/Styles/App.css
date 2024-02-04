@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Raleway&display=swap");
+@import url("https://fonts.cdnfonts.com/css/rugen");
+/* Colores Principales */
+/* Spacings */
+/* Font-family */
+/* Font-Sizes */
+:root {
+  /* Colores Principales */
+  --primary:#056fb7;
+  --secondary:#adadad;
+  --shades:#e1f0fd;
+  --text-color:#363636;
+  /* Spacings */
+  --spacing-large:6rem;
+  --spacing-medium:2.4rem;
+  --spacing-small:2rem;
+  --spacing-xsmall:1rem;
+  /* Font-family */
+  --font-logo:Rugen, sans-serif;
+  --font-principal:Raleway, sans-serif;
+  --font-title:Poppins, sans-serif;
+  /* Font-Sizes */
+  --text-large:5.2em;
+  --text-extra-medium:3.7em;
+  --text-medium:2.5em;
+  --text-base:1.6em;
+  --text-small:1.2em;
+  --text-smaller:0.8em;
+}
+
+:root {
+  /* Colores Principales */
+  --primary:#056fb7;
+  --secondary:#adadad;
+  --shades:#e1f0fd;
+  --text-color:#363636;
+  /* Spacings */
+  --spacing-large:6rem;
+  --spacing-medium:2.4rem;
+  --spacing-small:2rem;
+  --spacing-xsmall:1rem;
+  /* Font-family */
+  --font-logo:Rugen, sans-serif;
+  --font-principal:Raleway, sans-serif;
+  --font-title:Poppins, sans-serif;
+  /* Font-Sizes */
+  --text-large:5.2em;
+  --text-extra-medium:3.7em;
+  --text-medium:2.5em;
+  --text-base:1.6em;
+  --text-small:1.2em;
+  --text-smaller:0.8em;
+}/*# sourceMappingURL=App.css.map */

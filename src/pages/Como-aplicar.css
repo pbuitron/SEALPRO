@@ -1,0 +1,67 @@
+.imagenCabecera{
+    max-height: 100%;
+    height: auto;
+
+}
+
+.card1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:auto;
+    /*background-color:var(--shades);*/
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+    gap: 3rem;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+  }
+  
+  .cookieHeading {
+    font-size: var(--text-small);
+    font-weight: 700;
+    color: var(--primary);
+    text-align: justify;
+    text-transform: capitalize;
+  }
+  
+  .cookieDescription {
+    text-align: justify;
+    font-size: var(--text-smaller+1rem);
+    font-weight: 200;
+    padding: .5rem;
+    color: var(--primary);
+    text-transform:initial;
+  }
+  
+  .ts_icono {
+    width: 12rem;
+  }
+  .ts_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    min-width: 250px;
+    height: 30rem;
+    padding-top: 1rem;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid var(--shades);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    
+    border-radius: 1rem;
+    transition: all 0.5s;
+  
+    color: var(--shades);
+  }
+  
+  .ts_container:hover {
+    border: 1px var(--primary);
+    transform: scale(1.1);
+  }
+  
+  .ts_container:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+  

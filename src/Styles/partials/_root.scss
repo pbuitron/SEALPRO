@@ -1,0 +1,30 @@
+
+:root {
+
+    /* Colores Principales */
+    --primary:#{$primary};
+    --secondary:#{$secondary};
+    --shades:#{$shades};
+    --text-color:#{$text-color};
+    
+    /* Spacings */
+    --spacing-large:#{$spacing-large};
+    --spacing-medium:#{$spacing-medium};
+    --spacing-small:#{$spacing-small};
+    --spacing-xsmall:#{$spacing-xsmall};
+    
+    /* Font-family */
+    --font-logo:#{$font-logo};
+    --font-principal:#{$font-principal};
+    --font-title:#{$font-title};
+    
+    /* Font-Sizes */
+    --text-large:#{$text-large};
+    --text-extra-medium:#{$text-extra-medium};
+    --text-medium:#{$text-medium};
+    --text-base:#{$text-base};
+    --text-small:#{$text-small};
+    --text-smaller:#{$text-smaller};
+    
+    }
+    

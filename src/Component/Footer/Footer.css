@@ -1,0 +1,18 @@
+.triangle {
+    position: relative;
+    background: #056fb7;
+    height: 1vh;
+  }
+  
+  .triangle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 29px 29px 0 29px;
+    border-color: #056fb7 transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+  }

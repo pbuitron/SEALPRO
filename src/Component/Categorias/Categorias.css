@@ -1,0 +1,16 @@
+.cn_categorias{
+/*color: var(--shades)!important;*/
+font-family: var(--font-title);
+font-size: var(--text-small);
+text-align: justify;
+margin:1rem;
+}
+
+
+
+@media screen and (max-width: 799px){
+.cn_categorias{
+    font-size: calc(var(--text-base) - 0.6rem);
+}
+}
+

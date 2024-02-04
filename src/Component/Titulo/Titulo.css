@@ -1,0 +1,74 @@
+.st_container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.st_titulo{
+    font-family: var(--font-title);
+    color: var(--primary);
+    
+    padding: 1rem 0rem;
+    font-weight: 600;
+    animation-direction: normal;
+    animation-delay: 0s;
+    }
+    
+    .slide-in-title {
+      animation-name: fadeIn; /* Nombre de la animación */
+      animation-duration: 1s; /* Duración de la animación (1 segundo) */
+      animation-timing-function: ease-in; /* Función de temporización (opcional, 'ease' es suave) */
+      animation-delay: 0s; /* Retraso antes de comenzar (opcional, 0 segundos) */
+      animation-iteration-count: 1; /* Número de repeticiones (opcional, 1 para una sola vez) */
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+    }
+    
+    
+    @keyframes fadeIn {
+      from {
+        /*transform: translateX(-100px);*/
+        opacity: 0; /* Inicia con opacidad 0 (invisible) */
+      }
+      to {
+        /*transform: translateX(0px);*/
+        opacity: 1; /* Termina con opacidad 1 (totalmente visible) */
+      }
+    }
+    
+  
+  
+
+
+
+@media screen and (max-width: 799px) {
+    .st_titulo{
+        font-size:calc(var(--text-base) - 0.1rem);; 
+        text-align: center;
+       
+
+    }
+
+    .slide-in-title {
+      animation-name: fadeIn; /* Nombre de la animación */
+      animation-duration: 1s; /* Duración de la animación (1 segundo) */
+      animation-timing-function: ease-in; /* Función de temporización (opcional, 'ease' es suave) */
+      animation-delay: 0s; /* Retraso antes de comenzar (opcional, 0 segundos) */
+      animation-iteration-count: 1; /* Número de repeticiones (opcional, 1 para una sola vez) */
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+    }
+    
+
+    @keyframes fadeIn {
+      from {
+       /* transform: translateX(-100px);*/
+        opacity: 0; /* Inicia con opacidad 0 (invisible) */
+      }
+      to {
+      /*  transform: translateX(0px);*/
+        opacity: 1; /* Termina con opacidad 1 (totalmente visible) */
+      }
+    }
+
+}

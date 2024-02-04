@@ -1,0 +1,30 @@
+/* Estilo adicional para hacer el acordeón horizontal */
+.horizontal-accordion {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Ajustes de estilo para las etiquetas de acordeón */
+  .horizontal-accordion .accordion-item {
+    flex: 1;
+    border: 1px solid #ddd;
+    margin-right: 5px; /* Espaciado entre los elementos del acordeón */
+  }
+  
+  .horizontal-accordion .accordion-button {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .horizontal-accordion .accordion-collapse {
+    width: 100%;
+  }
+  
+  .accordion {
+    width: 100%;
+    font-family: var(--font-principal);
+  }
+
+  .accordion-button{
+  font-weight: 600;
+  }

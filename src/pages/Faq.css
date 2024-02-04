@@ -1,0 +1,43 @@
+.filtro {
+    margin: 3rem 0;
+    
+    
+  }
+  
+  .form-outline{
+    margin-left: 0;
+    padding-left: 1rem;
+    
+}
+ .preguntas{
+    
+    color: var(--primary);
+    margin: 0rem;
+
+}
+  
+.rpta{
+    margin: 0rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+} 
+li{
+list-style-type: none;
+margin: 0 1rem;
+text-align: justify;
+}
+
+@media screen and (max-width: 799px){
+    .rpta{
+        font-size: calc(var(--text-base) - 0.6rem);
+        text-align: justify;
+    }
+.preguntas{
+text-align: justify;
+}
+
+ul{
+padding: 0;
+}
+
+    }
