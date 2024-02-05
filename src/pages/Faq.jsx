@@ -17,13 +17,13 @@ export default function App() {
 
 
       <div
-        className='p-5 text-center bg-image'
+        className='p-5 text-center bg-image container'
         style={{ backgroundImage: "url('https://sylwrap.com/wp-content/uploads/2021/04/Wastewater-Header-SylWrap.jpg')", height: '400px' }}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
-              <h1 className='mb-3'>PREGUNTAS FRECUENTES</h1>
+              <h1 className='mb-3 faqh1'>PREGUNTAS FRECUENTES</h1>
               
             </div>
           </div>

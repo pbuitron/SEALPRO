@@ -6,7 +6,7 @@ import Cabecera from './Component/Cabecera/Cabecera';
 import Footer from './Component/Footer/Footer';
 import NoFound from './pages/NoFound';
 import ComoAplicar from './pages/Como-Aplicar';
-import ReparacionDeFugas from './pages/Reparacion-De-Fugas';
+import ReparacionDeFuga from './pages/Reparacion-De-Fugas';
 import Faq from './pages/Faq.jsx';
 import WhatsAppButton from './Component/Whatsapp/Whatsapp.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -20,7 +20,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aplicacion-de-producto" element={<ComoAplicar/>} />
-        <Route path="/reparacion-de-fugas" element={<ReparacionDeFugas />} />
+        <Route path="/reparacion-de-fugas" element={<ReparacionDeFuga />} />
         <Route path="/faq" element={<Faq/>} />
         <Route path="*" element={<NoFound />} />
 

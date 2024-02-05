@@ -9,7 +9,7 @@ const ComoAplicar = () => {
 
 
 <div
-  className='p-5 text-center bg-image'
+  className='p-5 text-center bg-image container'
   style={{ backgroundImage: "url('https://sylwrap.com/wp-content/uploads/2021/04/Contact-Header-SylWrap.jpg')", height: '400px' }}
 >
   <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>

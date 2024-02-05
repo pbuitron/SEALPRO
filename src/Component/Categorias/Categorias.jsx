@@ -2,7 +2,7 @@ import React from 'react';
 import './Categorias.css'
 const Categorias = ({ categoria }) => {
     return (
-        <div className='container'>
+        <div className='container categoria'>
             <p active aria-current='page' href='#' className='cn_categorias' color='light'>
                 {categoria}
             </p>

@@ -3,14 +3,18 @@
 font-family: var(--font-title);
 font-size: var(--text-small);
 text-align: justify;
-margin:1rem;
+
 }
 
+.categoria{
+    margin-bottom: 1rem;
+}
 
 
 @media screen and (max-width: 799px){
 .cn_categorias{
     font-size: calc(var(--text-base) - 0.6rem);
+    margin: 1rem;
 }
 }
 

@@ -1,0 +1,57 @@
+/* Estilos base */
+
+.Sectioncontainer {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna por defecto en pantallas pequeñas */
+    gap: 20px; /* Espacio entre elementos */
+    
+    padding: 0;
+  }
+  
+  .containerSeccion {
+    display: flex; /* Utiliza flexbox para centrar verticalmente la imagen y su contenido */
+    gap: 20px;
+  }
+  
+  .containerImg {
+    flex: 0 0 50%; /* La mitad del ancho para la imagen */
+    display: flex;
+    align-items: center;
+  }
+  
+  .containerImg img {
+    width: 100%; /* Asegura que la imagen ocupe el ancho completo del contenedor */
+    height: 100%; /* Ajusta la altura al 100% del contenedor */
+    object-fit: cover; /* Ajusta la imagen para cubrir la altura del contenedor manteniendo su proporción */
+  }
+  
+  .imagenSeccion {
+    flex: 0 0 50%; /* La mitad del ancho para el contenido */
+    text-align: center; /* Alinea el contenido en el centro */
+  }
+  
+  .parrafoSeccion {
+    font-family: var(--font-title);
+    font-size: calc(var(--text-base) - 0.6rem);
+    text-align: justify;
+  }
+  
+  .h2Seccion {
+    text-transform: uppercase;
+    font-family: var(--font-title);
+    font-size: calc(var(--text-base) - 0.6rem);
+  }
+  
+  /* Media queries para diseño responsive */
+  
+  @media (max-width: 768px) {
+    .containerSeccion {
+      flex-direction: column;
+       /* Cambia la dirección del contenedor a columna en pantallas pequeñas */
+    }
+  
+    .containerImg,
+    .imagenSeccion {
+      flex: 1 1 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+    }
+  }
