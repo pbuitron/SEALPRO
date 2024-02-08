@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     
-      <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+      <MDBFooter bgColor='light' className='formato text-center text-lg-start text-muted'>
       <svg
     preserveAspectRatio="none"
     viewBox="0 0 1200 120"

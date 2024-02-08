@@ -7,7 +7,7 @@ import './Cabecera.css';
 
 const Cabecera = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light formato" expand="lg">
       <div className="container">
         <Navbar.Brand>
           <Link to='/'><Logo /> </Link>
@@ -16,21 +16,22 @@ const Cabecera = () => {
         <Navbar.Collapse id="navbarNavAltMarkup">
           <Nav className="mr-auto">
             <Link to='/'>
-            <Button>Home</Button>
+              <Button>Home</Button>
             </Link>
-              
-            
+
+
             <NavDropdown title="Productos" id="basic-nav-dropdown">
               <NavDropdown.Item><Link to='./reparacion-de-fugas'>Reparación de Fugas</Link> </NavDropdown.Item>
               <NavDropdown.Item disabled><Link>Reparación de Corrosión y Refuerzos</Link></NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Industrias" id="basic-nav-dropdown">
+            <NavDropdown title="Industrias" id="basic-nav-dropdown" disabled>
               <NavDropdown.Item><Link>Petróleo y Gas</Link> </NavDropdown.Item>
               <NavDropdown.Item><Link>Industria Minera y Metálica</Link> </NavDropdown.Item>
               <NavDropdown.Item disabled><Link> Generación de Energia</Link> </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link> <Link to='/aplicacion-de-producto'> Aplicación </Link> </Nav.Link>
             <Nav.Link > <Link to='/faq'>Preguntas Frecuentes</Link>  </Nav.Link>
+            <Nav.Link > <Link to='/contacto'>Contáctenos</Link>  </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </div>

@@ -9,7 +9,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width:auto;
-    /*background-color:var(--shades);*/
+    font-family: var(--font-principal);
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 30px;
@@ -65,3 +65,6 @@
     transform: scale(0.95) rotateZ(1.7deg);
   }
   
+  .tituloAplicar{
+  margin-top: 2rem;
+  }

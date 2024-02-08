@@ -4,13 +4,13 @@
     display: grid;
     grid-template-columns: 1fr; /* Una columna por defecto en pantallas pequeñas */
     gap: 20px; /* Espacio entre elementos */
-    
     padding: 0;
   }
   
   .containerSeccion {
     display: flex; /* Utiliza flexbox para centrar verticalmente la imagen y su contenido */
     gap: 20px;
+    margin-bottom: 2rem;
   }
   
   .containerImg {
@@ -47,6 +47,7 @@
   @media (max-width: 768px) {
     .containerSeccion {
       flex-direction: column;
+      margin-bottom: 2rem;
        /* Cambia la dirección del contenedor a columna en pantallas pequeñas */
     }
   
