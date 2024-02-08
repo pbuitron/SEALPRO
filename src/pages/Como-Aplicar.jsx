@@ -7,7 +7,7 @@ const ComoAplicar = () => {
     <>
       <header>
         <div
-          className="p-5 text-center bg-image container"
+          className="p-5 text-center bg-image "
           style={{
             backgroundImage:
               "url('https://sylwrap.com/wp-content/uploads/2021/04/Contact-Header-SylWrap.jpg')",
