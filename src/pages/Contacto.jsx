@@ -6,12 +6,12 @@ function ContactForm() {
   
   return (
     <>
-    <header className="contenedorFoto container bg-image" >
+    <header className="contenedorFoto bg-image">
         
             <img 
             src="https://firebasestorage.googleapis.com/v0/b/sealpro-7bd18.appspot.com/o/portrait-woman-customer-service-worker_144627-37948.jpg?alt=media&token=b4d19566-9624-4b0c-bd78-5b1e342f64a0" 
             alt=""
-            className="fotoContacto " />
+            className="fotoContacto" />
         
     </header>
     <div>

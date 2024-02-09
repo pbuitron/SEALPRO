@@ -1,0 +1,16 @@
+.figuraKit{
+display: flex;
+flex-wrap: wrap;
+overflow: hidden;
+}
+
+.figure-img{
+max-width: 40%;
+}
+
+@media screen and (max-width: 799px){
+    .figure-img{
+        max-width: 90%;
+        } 
+
+    }

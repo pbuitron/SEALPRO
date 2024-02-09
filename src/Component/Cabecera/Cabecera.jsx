@@ -21,7 +21,7 @@ const Cabecera = () => {
 
 
             <NavDropdown title="Productos" id="basic-nav-dropdown">
-              <NavDropdown.Item><Link to='./reparacion-de-fugas'>Reparación de Fugas</Link> </NavDropdown.Item>
+              <NavDropdown.Item><Link to='/reparacion-de-fugas'>Reparación de Fugas</Link> </NavDropdown.Item>
               <NavDropdown.Item disabled><Link>Reparación de Corrosión y Refuerzos</Link></NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Industrias" id="basic-nav-dropdown" disabled>

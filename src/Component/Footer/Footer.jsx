@@ -1,11 +1,24 @@
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-import './Footer.css'
+/*import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+*/import './Footer.css'
 import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
-    
-      <MDBFooter bgColor='light' className='formato text-center text-lg-start text-muted'>
+    <footer className="bg-body-tertiary text-center">
+  {/* Grid container */}
+  <div className="container p-4"></div>
+  {/* Grid container */}
+
+  {/* Copyright */}
+  <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
+    © 2024 Copyright:
+    <a className="text-body" href="https://www.industrial-iot.us/">Industrial Iot Eirl</a>
+  </div>
+  {/* Copyright */}
+</footer>
+
+
+      /*<MDBFooter bgColor='light' className='formato text-center text-lg-start text-muted'>
       <svg
     preserveAspectRatio="none"
     viewBox="0 0 1200 120"
@@ -117,6 +130,7 @@ export default function Footer() {
           Paul Buitron
         </Link>
       </div>
-    </MDBFooter>
+    </MDBFooter>*/
   );
 }
+
