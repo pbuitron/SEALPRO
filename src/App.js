@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/reparacion-de-fugas" element={<ReparacionDeFuga />} />
         <Route path="/contacto" element={<ContactForm />} />
         <Route path="/faq" element={<Faq/>} />
-        <Route path="*" element={<NoFound />} />
+        <Route path="/*" element={<NoFound />} />
 
       </Routes>
       <WhatsAppButton />
