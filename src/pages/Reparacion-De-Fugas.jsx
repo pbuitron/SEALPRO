@@ -1,6 +1,6 @@
 import './Reparacion-De-Fugas.css'
 import React from 'react';
-import Titulo from '../Component/Titulo/Titulo';
+import Titulo from '../Component/H1/Titulo';
 import Acordeon from './Componentes/Acordeon';
 
 const ReparacionDeFuga = () => {

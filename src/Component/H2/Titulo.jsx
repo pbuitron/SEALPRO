@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Titulo.css';
 
-const Titulo = ({ value, id, className }) => {
+const H2 = ({ value, id, className }) => {
   const tituloRef = useRef(null);
   const [animar, setAnimar] = useState(false);
 
@@ -26,14 +26,14 @@ const Titulo = ({ value, id, className }) => {
 
   return (
     <div className={`st_container ${animar ? 'slide-in-title' : ''}`}>
-      <h1 className={className} id={id} ref={tituloRef}>
+      <h2 className={className} id={id} ref={tituloRef}>
         {value}
-      </h1>
+      </h2>
     </div>
   );
 }
 
-export default Titulo;
+export default H2;
 
 
 /*
