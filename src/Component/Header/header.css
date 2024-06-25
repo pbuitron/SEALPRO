@@ -1,0 +1,89 @@
+.header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.filtro{
+position: absolute;
+height: 100%;
+width: 100%;    
+background-color: hsla(0, 0%, 0%, 0.5);
+}
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center center;
+    filter: grayscale(100%);
+    z-index: -1;
+}
+
+.content {
+     position: relative;
+     top :35%;
+     padding-left: 8rem;
+     display: flex;
+     flex-direction: column;
+    z-index: 2;
+    color: white;
+    
+    max-width: 600px;
+}
+
+.h1 {
+    
+    top: 60%;
+    font-size: calc(var(--text-extra-medium) - 2px);
+    font-family:var(--font-title) ;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+.h2 {
+    font-size: calc(var(--text-smaller) + 2px);
+    font-family:var(--font-principal) ;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: rgb(59, 139, 61);
+}
+
+@media (width <= 680px){
+.content{
+    top :30%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.h1{
+    font-size: calc(var(--text-medium) - 1px) ;
+    margin-bottom: 1em;
+}
+.h2{
+        margin-bottom: 4em;
+    font-size: calc(var(--text-small) - 2px);
+
+}
+
+.background-video {
+    object-fit: cover;
+    object-position:  center center;
+    
+}
+}
