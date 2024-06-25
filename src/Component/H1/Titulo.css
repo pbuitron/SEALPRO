@@ -8,7 +8,7 @@ justify-content: center;
     font-family: var(--font-title);
     color: var(--primary);
     
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     font-weight: 600;
     animation-direction: normal;
     animation-delay: 0s;
